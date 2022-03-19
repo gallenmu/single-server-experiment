@@ -34,4 +34,4 @@ However, publication is recommended to allow others to easily create their own w
 
 ## How to use the tools
 
-We created a [website](https://gallenmu.github.io/pos-artifacts) that explains how to reproduce this experiment.
+We created a [website](https://gallenmu.github.io/single-server-experiment) that explains how to reproduce this experiment.

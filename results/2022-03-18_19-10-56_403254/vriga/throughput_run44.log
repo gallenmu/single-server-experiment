@@ -1,0 +1,43 @@
+[1;37m[INFO]  Initializing DPDK. This will take a few seconds...[0m
+EAL: Probing VFIO support...
+EAL: WARNING: cpu flags constant_tsc=yes nonstop_tsc=no -> using unreliable clock cycles !
+EAL: PCI device 0000:00:03.0 on NUMA socket -1
+EAL:   Invalid NUMA socket, default to 0
+EAL:   probe driver: 1af4:1000 net_virtio
+EAL: PCI device 0000:00:04.0 on NUMA socket -1
+EAL:   Invalid NUMA socket, default to 0
+EAL:   probe driver: 8086:154c net_i40e_vf
+EAL: PCI device 0000:00:05.0 on NUMA socket -1
+EAL:   Invalid NUMA socket, default to 0
+EAL:   probe driver: 8086:154c net_i40e_vf
+[1;37m[INFO]  Found 2 usable devices:[0m
+   Device 0: 52:54:00:7E:BA:22 ([0;32mIntel Corporation XL710/X710 Virtual Function[0m)
+   Device 1: 52:54:00:34:F7:C3 ([0;32mIntel Corporation XL710/X710 Virtual Function[0m)
+[1;33m[WARN]  Failed to get firmware version: -95[0m
+[1;33m[WARN]  Failed to get firmware version: -95[0m
+[1;37m[INFO]  Waiting for devices to come up...[0m
+[1;37m[INFO]  Device 1 (52:54:00:34:F7:C3) is up: 40000 MBit/s[0m
+[1;37m[INFO]  Device 0 (52:54:00:7E:BA:22) is up: 40000 MBit/s[0m
+[1;37m[INFO]  [0;32m2 devices are up.[0m[0m
+[1;37m[INFO]  Trying to enable rx timestamping of all packets, this isn't supported by most nics[0m
+[1;36m[Device: id=1] RX[0m: 0.5530 Mpps, 6653.10 Mbit/s (6741.57 Mbit/s with framing)
+[0;34m[Device: id=0] TX[0m: 0.5816 Mpps, 6978.66 Mbit/s (7071.71 Mbit/s with framing)
+[0;34m[Device: id=0] TX[0m: 0.6001 Mpps, 7201.12 Mbit/s (7297.14 Mbit/s with framing)
+[1;36m[Device: id=1] RX[0m: 0.5872 Mpps, 7064.60 Mbit/s (7158.54 Mbit/s with framing)
+[0;34m[Device: id=0] TX[0m: 0.6001 Mpps, 7201.24 Mbit/s (7297.26 Mbit/s with framing)
+[1;36m[Device: id=1] RX[0m: 0.6001 Mpps, 7220.04 Mbit/s (7316.05 Mbit/s with framing)
+[0;34m[Device: id=0] TX[0m: 0.6000 Mpps, 7200.44 Mbit/s (7296.45 Mbit/s with framing)
+[1;36m[Device: id=1] RX[0m: 0.6001 Mpps, 7220.08 Mbit/s (7316.10 Mbit/s with framing)
+[0;34m[Device: id=0] TX[0m: 0.6001 Mpps, 7201.14 Mbit/s (7297.15 Mbit/s with framing)
+[1;36m[Device: id=1] RX[0m: 0.6001 Mpps, 7220.06 Mbit/s (7316.07 Mbit/s with framing)
+[0;34m[Device: id=0] TX[0m: 0.6001 Mpps, 7200.79 Mbit/s (7296.80 Mbit/s with framing)
+[1;36m[Device: id=1] RX[0m: 0.6001 Mpps, 7220.09 Mbit/s (7316.10 Mbit/s with framing)
+[0;34m[Device: id=0] TX[0m: 0.6001 Mpps, 7201.08 Mbit/s (7297.09 Mbit/s with framing)
+[1;36m[Device: id=1] RX[0m: 0.6001 Mpps, 7220.05 Mbit/s (7316.06 Mbit/s with framing)
+36
+[0;34m[Device: id=0] TX[0m: 0.3009 Mpps, 3611.12 Mbit/s (3659.27 Mbit/s with framing)
+[1;36m[Device: id=1] RX[0m: 0.2915 Mpps, 3507.29 Mbit/s (3553.93 Mbit/s with framing)
+4500000
+[1;36m[Device: id=1] RX[0m: 0.5541 (StdDev 0.1159) Mpps, 6667.46 (StdDev 1395) Mbit/s (6756.12 Mbit/s with framing), total 4431978 packets with 6665694912 bytes (incl. CRC)
+[0;34m[Device: id=0] TX[0m: 0.0000 Mpps, 0.00 Mbit/s (0.00 Mbit/s with framing)
+[0;34m[Device: id=0] TX[0m: 0.4877 (StdDev 0.2231) Mpps, 5852.12 (StdDev 2678) Mbit/s (5930.14 Mbit/s with framing), total 4500000 packets with 6750000000 bytes (incl. CRC)

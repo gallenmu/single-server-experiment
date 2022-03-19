@@ -1,0 +1,10 @@
+[root] [DEBUG] pos_server: http://172.16.0.1:5000
+[root] [INFO] Start bootstrapping host: 2022-03-18 20:11:31
+[root] [DEBUG] fetching allocation data from: http://172.16.0.1:5000/allocations/get/vriga
+[root] [INFO] Finished setting up variables: 2022-03-18 20:11:31
+zip_safe flag not set; analyzing archive contents...
+zip_safe flag not set; analyzing archive contents...
+[root] [INFO] Finished setting up postools: 2022-03-18 20:11:33
+[root] [INFO] Clearing ssh public keys from authorized keys file: 2022-03-18 20:11:33
+[root] [INFO] Adding an ssh public key to authorized keys file: 2022-03-18 20:11:33
+[root] [INFO] Adding public key
